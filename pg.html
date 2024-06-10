@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="pg.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="inside-container">
+            <div class="pass">
+                <input placeholder="Password" readonly="readonly" id="password-display">
+                <button class="copy-btn"> <img src="C:\Users\sunil\Downloads\copy.png" alt="Copy" width="15px" height="15px"></button>
+            </div>
+            <div class="border">
+                <div class="input-container">
+                    <p>Password Length</p>
+                    <p class="password-length">0</p>
+                    <input type="range" min="4" max="20" value="8" class="slider" id="myRange">
+                    <div>
+                        <input type="checkbox" class="1st-checkbox" id="include-uppercase" onclick="handleCheckBoxes('upper')">
+                        <label>Include Uppercase</label>
+                        <div> <input type="checkbox" class="1st-checkbox" id="include-lowercase" onclick="handleCheckBoxes('lower')">
+                            <label>Include Lowercase</label></div>
+                        <div>
+                            <input type="checkbox" class="1st-checkbox" id="include-symbol" onclick="handleCheckBoxes('symbol')">
+                            <label>Include Symbol</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" class="1st-checkbox" id="include-number" onclick="handleCheckBoxes('number')">
+                            <label>Include Number</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="strength">
+                    <p class="inner-strength">Strength</p>
+                    <div class="strength-icon"></div>
+                    <button class="div generatepassword">Generate Password</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="pg.js"></script>
+</body>
+</html>

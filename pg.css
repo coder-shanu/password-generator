@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Set background color */
+}
+
+.container {
+    background-color: blueviolet;
+    height: 400px;
+    width: 300px;
+    color: white;
+}
+
+.border {
+    border-radius: 2px;
+    color: white;
+}
+
+.div {
+    background-color: brown;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 5px;
+}
+
+.inside-container {
+    margin: 30px;
+}
+
+.strength-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-bottom: 5px;
+}
