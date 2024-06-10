@@ -9,7 +9,10 @@ A web-based password generator that allows users to create strong and customizab
 - Real-time strength indicator for generated passwords.
 - One-click copy to clipboard feature.
 
-
+## Code structure
+-index.html: Contains the HTML structure of the application.
+-styles.css: Contains the CSS styles for the application.
+-script.js: Contains the JavaScript functionality for the application.
 
 
 
